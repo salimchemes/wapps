@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="wappsApp">
 
 <head>
 	<meta charset="utf-8">
@@ -26,6 +26,10 @@
         Author: BootstrapMade
         Author URL: https://bootstrapmade.com
     ======================================================= -->
+
+
+	<script src="js/angular.min.js"></script>
+	<script src="js/wappsApp.js"></script>
 </head>
 
 <body data-spy="scroll">
@@ -67,33 +71,29 @@
 
 	<!-- Section: intro -->
 	<section id="intro" class="intro">
-		<!--<div class="slogan">
-			<h1>Web & Apps</h1>
-			<p>Dessarrollo de sitios web y aplicaciones moviles</p>
-			<a href="#about" class="btn btn-skin scroll">Mas Info</a>
-		</div>-->
-		<div class="homepage-hero-module">
-			<div class="video-container">
+
+		<div class="homepage-hero-module" ng-controller='HeroController as hero'>
+			<div ng-if="hero.isMobile" class="slogan">
+				<h1>Web & Apps</h1>
+				<p>Dessarrollo de sitios web y aplicaciones moviles</p>
+				<a href="#about" class="btn btn-skin scroll">Mas Info</a>
+			</div>
+			<div ng-if="!hero.isMobile" class="video-container">
 				<div class="filter"></div>
 				<video autoplay loop class="fillWidth">
 					<source src="video/Love-Coding.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 					<source src="video/Love-Coding.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				</video>
 				<div class="overlay-desc">
-					<h1>Web & Apps</h1>
-					<!--<p>Creamos Apps y Sitios Web</p>
-						<a href="#about" class="btn btn-skin scroll">Mas Info</a>-->
+					<h1>Web & Apps</h1> 
 				</div>
 				<div class="overlay-desc-description">
-					<span>Creamos Apps y Sitios Web</span>
+					<span>Creamos Apps y Sitios Web {{hero.isMobile}}</span>
 				</div>
 				<div class="overlay-desc-button">
 					<a href="#about" class="btn btn-skin scroll">Mas Info</a>
-				</div>
-				<!--<div class="poster hidden">
-					<h1>Web & Apps</h1>
-					 </div>-->
-			</div>
+				</div> 
+			</div> 
 		</div>
 	</section>
 	<!-- /Section: intro -->
@@ -422,7 +422,7 @@
 	<script src="js/custom.js"></script>
 	<script src="contactform/contactform.js"></script>
 	<script src="js/videohero.js"></script>
-
+	<script src="js/util.js"></script>
 </body>
 
 </html>
