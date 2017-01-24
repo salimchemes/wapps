@@ -132,4 +132,102 @@
   <data name="Works" xml:space="preserve">
     <value>Works</value>
   </data>
+  <data name="menu-us" xml:space="preserve">
+    <value>Nosotros</value>
+  </data>
+  <data name="menu-services" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="menu-works" xml:space="preserve">
+    <value>Trabajos</value>
+  </data>
+  <data name="menu-contactus" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="menu-web-and-apps" xml:space="preserve">
+    <value>Web &amp; Apps</value>
+  </data>
+  <data name="hero-more-info" xml:space="preserve">
+    <value>Mas Info</value>
+  </data>
+  <data name="us-section-title" xml:space="preserve">
+    <value>Nosotros</value>
+  </data>
+  <data name="us-section-subtitle" xml:space="preserve">
+    <value>Somos jovenes profesionales apasionados por la tecnologia. Nos dedicamos a brindar soluciones web y moviles. Tenemos mas
+								de 10 anos de experiencia trabajando para grandes companias de Argentina y EEUU.</value>
+  </data>
+  <data name="software-engineer" xml:space="preserve">
+    <value>Ing. Sistemas</value>
+  </data>
+  <data name="fullstack-dev" xml:space="preserve">
+    <value>fullstack developer</value>
+  </data>
+  <data name="services-section-title" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="services-section-subtitle" xml:space="preserve">
+    <value>Nuestro objetivo es agregar valor y entregar software de calidad a nuestros clientes.
+								&lt;br&gt; Trabajamos aplicando metodologias agiles.</value>
+  </data>
+  <data name="websites-services-title" xml:space="preserve">
+    <value>Sitios web</value>
+  </data>
+  <data name="websites-services-subtitle" xml:space="preserve">
+    <value>Desarrollo de sitios a medida, sitios responsive compatibles con telefonos, tablets</value>
+  </data>
+  <data name="apps-services-title" xml:space="preserve">
+    <value>Aplicaciones moviles</value>
+  </data>
+  <data name="apps-services-subtitle" xml:space="preserve">
+    <value>Aplicaciones multiplataforma (iPhone, Android, Windows Phone).</value>
+  </data>
+  <data name="consulting-services-title" xml:space="preserve">
+    <value>Consultoria</value>
+  </data>
+  <data name="consulting-services-subtitle" xml:space="preserve">
+    <value>Asesoria para mejorar la productividad y agilizar procesos.</value>
+  </data>
+  <data name="works-section-title" xml:space="preserve">
+    <value>Trabajos</value>
+  </data>
+  <data name="works-section-subtitle" xml:space="preserve">
+    <value>Estos son los proyectos en los cuales trabajamos.</value>
+  </data>
+  <data name="inmoapp-works-title" xml:space="preserve">
+    <value>InmoApp</value>
+  </data>
+  <data name="inmoapp-works-subtitle" xml:space="preserve">
+    <value>Aplicacion para el corredor inmobiliario</value>
+  </data>
+  <data name="urgencias-works-title" xml:space="preserve">
+    <value>Lectora Codigo Barra</value>
+  </data>
+  <data name="urgencias-works-subtitle" xml:space="preserve">
+    <value>Software a medida para agilizar proceso de inventario</value>
+  </data>
+  <data name="ottado-works-title" xml:space="preserve">
+    <value>Ottado Contructora</value>
+  </data>
+  <data name="ottado-works-subtitle" xml:space="preserve">
+    <value>Sitio web</value>
+  </data>
+  <data name="contactus-section-title" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="contactus-section-subtitle" xml:space="preserve">
+    <value>Contactanos via mail o por telefono.</value>
+  </data>
+  <data name="contactus-phone" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="contactus-mail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="hero-title" xml:space="preserve">
+    <value>Web &amp; Apps</value>
+  </data>
+  <data name="hero-subtitle" xml:space="preserve">
+    <value>desarrollo de sitios web y aplicaciones moviles</value>
+  </data>
 </root>

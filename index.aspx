@@ -1,5 +1,3 @@
-<%@ page language="C#" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,16 +35,16 @@
 									<a href="#home" class="gn-icon gn-icon gn-icon-house">Inicio</a>
 								</li>-->
 							<li>
-								<a href="#about" class="gn-icon gn-icon-download"> <asp:Literal runat="server" Text="<%$Resources:wapps, Us%>" /> </a>
+								<a href="#about" class="gn-icon gn-icon-download"> <asp:Literal runat="server" Text="<%$Resources:wapps, menu-us%>" /> </a>
 							</li>
 							<li>
-								<a href="#service" class="gn-icon gn-icon-cog"><asp:Literal runat="server" Text="<%$Resources:wapps, Services%>" /></a>
+								<a href="#service" class="gn-icon gn-icon-cog"><asp:Literal runat="server" Text="<%$Resources:wapps, menu-services%>" /></a>
 							</li>
 							<li>
-								<a href="#works" class="gn-icon gn-icon-help"><asp:Literal runat="server" Text="<%$Resources:wapps, Works%>" /></a>
+								<a href="#works" class="gn-icon gn-icon-help"><asp:Literal runat="server" Text="<%$Resources:wapps, menu-works%>" /></a>
 							</li>
 							<li>
-								<a href="#contact" class="gn-icon gn-icon-archive"><asp:Literal runat="server" Text="<%$Resources:wapps, ContactUs%>" /></a>
+								<a href="#contact" class="gn-icon gn-icon-archive"><asp:Literal runat="server" Text="<%$Resources:wapps, menu-contactus%>" /></a>
 							</li>
 						</ul>
 					</div>
@@ -54,7 +52,7 @@
 				</nav>
             </li>
             <li><a href="#">
-                <asp:literal runat="server" text="<%$Resources:wapps, web-and-apps%>" />
+                <asp:literal runat="server" text="<%$Resources:wapps, menu-web-and-apps%>" />
             </a></li>
             <li class="hidden-xs">
                 <ul class="company-social">
@@ -71,9 +69,9 @@
     <!-- Section: intro -->
     <section id="intro" class="intro">
 		<div class="slogan">
-			<h1><%$Resources:wapps, hero-title%></h1>
-			<p><%$Resources:wapps, hero-subtitle%></p>
-			<a href="#about" class="btn btn-skin scroll"><%$Resources:wapps, hero-more-info%></a>
+			<h1><asp:literal runat="server" text="<%$Resources:wapps, hero-title%>" /></h1>
+			<p><asp:literal runat="server" text="<%$Resources:wapps, hero-subtitle%>" /></p>
+			<a href="#about" class="btn btn-skin scroll"><asp:literal runat="server" text="<%$Resources:wapps, hero-more-info%>" /></a>
 		</div>
 	</section>
     <!-- /Section: intro -->
@@ -85,9 +83,9 @@
 					<div class="col-lg-8 col-lg-offset-2">
 
 						<div class="section-heading">
-							<h2><%$Resources:wapps, us-section-title%></h2>
+							<h2><asp:literal runat="server" text="<%$Resources:wapps, us-section-title%>" /></h2>
 							<p>
-								<%$Resources:wapps, us-section-subtitle%></p>
+								<asp:literal runat="server" text="<%$Resources:wapps, us-section-subtitle%>" /></p>
 						</div>
 
 					</div>
@@ -102,7 +100,7 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Joaquin Cid</h5>
-							<p class="subtitle"><%$Resources:wapps, software-engineer%> <br><%$Resources:wapps, fullstack-dev%></p>
+							<p class="subtitle"><asp:literal runat="server" text="<%$Resources:wapps, software-engineer%>" /> <br><asp:literal runat="server" text="<%$Resources:wapps, fullstack-dev%>" /></p>
 							<div class="avatar">
 								<img src="img/team/joaquin.jpg" alt="" class="img-responsive" /></div>
 						</div>
@@ -114,7 +112,7 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Salim Chemes</h5>
-							<p class="subtitle"><%$Resources:wapps, software-engineer%> <br><%$Resources:wapps, fullstack-dev%></p>
+							<p class="subtitle"><asp:literal runat="server" text="<%$Resources:wapps, software-engineer%>" /> <br><asp:literal runat="server" text="<%$Resources:wapps, fullstack-dev%>" /></p>
 							<div class="avatar"><img src="https://pbs.twimg.com/profile_images/796691665566232578/2OSirik6.jpg" alt="" class="img-responsive" /></div>
 						</div>
 
@@ -133,9 +131,9 @@
 					<div class="col-lg-8 col-lg-offset-2">
 
 						<div class="section-heading">
-							<h2><%$Resources:wapps, services-section-title%></h2>
+							<h2><asp:literal runat="server" text="<%$Resources:wapps, services-section-title%>" /></h2>
 							<p>
-								<%$Resources:wapps, services-section-subtitle%>
+								<asp:literal runat="server" text="<%$Resources:wapps, services-section-subtitle%>" />
 							</p>
 						</div>
 
@@ -152,8 +150,8 @@
 							<i class="fa fa-code fa-3x"></i>
 						</div>
 						<div class="service-desc">
-							<h5><%$Resources:wapps, websites-services-title%></h5>
-							<p><%$Resources:wapps, websites-services-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, websites-services-title%>" /></h5>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, websites-services-subtitle%>" /></p>
 						</div>
 					</div>
 
@@ -165,8 +163,8 @@
 							<i class="fa fa-suitcase fa-3x"></i>
 						</div>
 						<div class="service-desc">
-							<h5><%$Resources:wapps, apps-services-title%></h5>
-							<p> <%$Resources:wapps, websites-services-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, apps-services-title%>" /></h5>
+							<p> <asp:literal runat="server" text="<%$Resources:wapps, apps-services-subtitle%>" /></p>
 						</div>
 					</div>
 
@@ -178,8 +176,8 @@
 							<i class="fa fa-cog fa-3x"></i>
 						</div>
 						<div class="service-desc">
-							<h5><%$Resources:wapps, websites-consulting-title%></h5>
-							<p><%$Resources:wapps, websites-consulting-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, consulting-services-title%>" /></h5>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, consulting-services-subtitle%>" /></p>
 						</div>
 					</div>
 				</div>
@@ -195,8 +193,8 @@
 					<div class="col-lg-8 col-lg-offset-2">
 
 						<div class="section-heading">
-							<h2><%$Resources:wapps, works-section-title%></h2>
-							<p><%$Resources:wapps, works-section-subtitle%></p>
+							<h2><asp:literal runat="server" text="<%$Resources:wapps, works-section-title%>" /></h2>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, works-section-subtitle%>" /></p>
 						</div>
 
 					</div>
@@ -210,22 +208,22 @@
 
 					<div class="row gallery-item">
 						<div class="col-md-4">
-							<h5><%$Resources:wapps, inmoapp-works-title%></h5>
-							<p><%$Resources:wapps, inmoapp-works-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-title%>" /></h5>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-subtitle%>" /></p>
 							<a href="#" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
 								<img src="img/works/inmoapp.png" class="img-responsive" alt="img">
 							</a>
 						</div>
 						<div class="col-md-4">
-							<h5><%$Resources:wapps, urgencias-works-title%></h5>
-							<p><%$Resources:wapps, urgencias-works-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-title%>" /></h5>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-subtitle%>" /></p>
 							<a href="#" title="Urgencias" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/urgencias.png">
 								<img src="img/works/urgencias.png" class="img-responsive" alt="img">
 							</a>
 						</div>
 						<div class="col-md-4">
-							<h5><%$Resources:wapps, ottado-works-title%></h5>
-							<p><%$Resources:wapps, ottado-works-subtitle%></p>
+							<h5><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-title%>" /></h5>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-subtitle%>" /></p>
 							<a href="http://www.ottadoconstructora.com.ar/Home.aspx" title="Ottado Constructora" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/ottado.png">
 								<img src="img/works/ottado.png" class="img-responsive" alt="img">
 							</a>
@@ -245,8 +243,8 @@
 					<div class="col-lg-8 col-lg-offset-2">
 
 						<div class="section-heading">
-							<h2><%$Resources:wapps, contactus-section-title%></h2>
-							<p><%$Resources:wapps, contactus-section-subtitle%></p>
+							<h2><asp:literal runat="server" text="<%$Resources:wapps, contactus-section-title%>" /></h2>
+							<p><asp:literal runat="server" text="<%$Resources:wapps, contactus-section-subtitle%>" /></p>
 						</div>
 
 					</div>
@@ -258,14 +256,14 @@
 			<div class="row">
 				<div class="col-lg-3 col-lg-offset-3">
 					<address>
-						<strong><%$Resources:wapps, contactus-phone%></strong><br>
+						<strong><asp:literal runat="server" text="<%$Resources:wapps, contactus-phone%>" /></strong><br>
 						+54 9 (341) 368 64444
 					</address>
 				</div>
 
 				<div class="col-lg-3">
 					<address>
-						<strong><%$Resources:wapps, contactus-mail%></strong><br>
+						<strong><asp:literal runat="server" text="<%$Resources:wapps, contactus-mail%>" /></strong><br>
 						<a href="mailto:#">info@wapps.com.ar</a><br />
 						<!--<a href="mailto:#">name.name@example.com</a>-->
 					</address>
