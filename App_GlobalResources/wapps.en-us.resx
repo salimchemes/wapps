@@ -120,4 +120,10 @@
   <data name="Us" xml:space="preserve">
     <value>Us</value>
   </data>
+  <data name="menu-works" xml:space="preserve">
+    <value>Works</value>
+  </data>
+  <data name="menu-us" xml:space="preserve">
+    <value>Us</value>
+  </data>
 </root>
