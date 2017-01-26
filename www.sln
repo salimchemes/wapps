@@ -1,24 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wapps", ".", "{6F57DC08-91F1-4411-B850-A2D83DE175C8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www", "www\", "{A2E39517-5F2B-48C1-A1A0-B8FB72BF8AE1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/wapps"
-		Debug.AspNetCompiler.PhysicalPath = "..\wapps\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\wapps\"
+		Debug.AspNetCompiler.VirtualPath = "/www"
+		Debug.AspNetCompiler.PhysicalPath = "www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/wapps"
-		Release.AspNetCompiler.PhysicalPath = "..\wapps\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\wapps\"
+		Release.AspNetCompiler.VirtualPath = "/www"
+		Release.AspNetCompiler.PhysicalPath = "www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2059"
+		VWDPort = "10493"
 	EndProjectSection
 EndProject
 Global
@@ -26,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F57DC08-91F1-4411-B850-A2D83DE175C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F57DC08-91F1-4411-B850-A2D83DE175C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E39517-5F2B-48C1-A1A0-B8FB72BF8AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E39517-5F2B-48C1-A1A0-B8FB72BF8AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
