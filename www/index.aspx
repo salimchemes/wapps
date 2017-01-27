@@ -209,22 +209,22 @@
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-subtitle%>" /></p>
-							<a href="#" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
-								<img src="img/works/inmoapp.png" class="img-responsive" alt="img">
+							<a href="img/works/inmoapp.png" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
+								<img src="img/works/inmoapp.png" class="img-responsive center-img-works" alt="img" >
 							</a>
 						</div>
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-subtitle%>" /></p>
-							<a href="#" title="Urgencias" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/urgencias.png">
-								<img src="img/works/urgencias.png" class="img-responsive" alt="img">
+							<a href="img/works/urgencias.png" title="Urgencias" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/urgencias.png">
+								<img src="img/works/urgencias.png" class="img-responsive center-img-works" alt="img">
 							</a>
 						</div>
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-subtitle%>" /></p>
 							<a href="http://www.ottadoconstructora.com.ar/Home.aspx" title="Ottado Constructora" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/ottado.png">
-								<img src="img/works/ottado.png" class="img-responsive" alt="img">
+								<img src="img/works/ottado.png" class="img-responsive center-img-works" alt="img">
 							</a>
 						</div>
 					</div>
@@ -239,7 +239,7 @@
 							<h5><asp:literal ID="Literal1" runat="server" text="<%$Resources:wapps, almaclip-works-title%>" /></h5>
 							<p><asp:literal ID="Literal2" runat="server" text="<%$Resources:wapps, almaclip-works-subtitle%>" /></p>
 							<a href="http://tv.almaclip.com.ar/singlesignin/login" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/almaclip.png">
-								<img src="img/works/almaclip.png" class="img-responsive" alt="img">
+								<img src="img/works/almaclip.png" class="img-responsive center-img-works" alt="img">
 							</a>
 						</div>
 					</div>
