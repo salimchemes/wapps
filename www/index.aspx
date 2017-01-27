@@ -209,7 +209,7 @@
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-subtitle%>" /></p>
-							<a href="img/works/inmoapp.png" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
+							<a href="img/works/inmoappdetail.png" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
 								<img src="img/works/inmoapp.png" class="img-responsive center-img-works" alt="img" >
 							</a>
 						</div>
