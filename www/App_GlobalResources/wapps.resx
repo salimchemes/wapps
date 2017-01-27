@@ -230,4 +230,10 @@
   <data name="hero-subtitle" xml:space="preserve">
     <value>desarrollo de sitios web y aplicaciones moviles</value>
   </data>
+  <data name="almaclip-works-title" xml:space="preserve">
+    <value>Almaclip</value>
+  </data>
+  <data name="almaclip-works-subtitle" xml:space="preserve">
+    <value>Sitio Web / Sistema monitoreo de TV y Radio / Sistema de clipping de medios</value>
+  </data>
 </root>

@@ -52,7 +52,7 @@
 				</nav>
             </li>
             <li><a href="#">
-                <asp:literal runat="server" text="<%$Resources:wapps, menu-web-and-apps%>" />
+                <asp:Literal runat="server" Text="<%$Resources:wapps, menu-web-and-apps%>" />
             </a></li>
             <li class="hidden-xs">
                 <ul class="company-social">
@@ -202,7 +202,6 @@
 			</div>
 		</div>
 		<div class="container">
-
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 
@@ -226,6 +225,21 @@
 							<p><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-subtitle%>" /></p>
 							<a href="http://www.ottadoconstructora.com.ar/Home.aspx" title="Ottado Constructora" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/ottado.png">
 								<img src="img/works/ottado.png" class="img-responsive" alt="img">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+            <div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+
+					<div class="row gallery-item">
+						<div class="col-md-4">
+							<h5><asp:literal ID="Literal1" runat="server" text="<%$Resources:wapps, almaclip-works-title%>" /></h5>
+							<p><asp:literal ID="Literal2" runat="server" text="<%$Resources:wapps, almaclip-works-subtitle%>" /></p>
+							<a href="http://tv.almaclip.com.ar/singlesignin/login" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/almaclip.png">
+								<img src="img/works/almaclip.png" class="img-responsive" alt="img">
 							</a>
 						</div>
 					</div>
