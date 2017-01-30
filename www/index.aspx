@@ -1,3 +1,5 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="_Index" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,6 +57,14 @@
                 <asp:Literal runat="server" Text="<%$Resources:wapps, menu-web-and-apps%>" />
             </a></li>
             <li class="hidden-xs">
+                <ul class="company-localize">
+                    <li><a href="/www/index.aspx?language=es"><i>ESP</i>
+                    </a></li>
+                    <li><a href="/www/index.aspx?language=en-us"><i>ENG</i>
+                    </a></li>
+                </ul>
+            </li>
+            <%--<li class="hidden-xs">
                 <ul class="company-social">
                     <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i>
                     </a></li>
@@ -63,7 +73,7 @@
                     <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i>
                     </a></li>
                 </ul>
-            </li>
+            </li>--%>
         </ul>
     </div>
     <!-- Section: intro -->
@@ -210,21 +220,21 @@
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, inmoapp-works-subtitle%>" /></p>
 							<a href="img/works/inmoappdetail.png" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/inmoapp.png">
-								<img src="img/works/inmoapp.png" class="img-responsive center-img-works" alt="img" >
+								<img src="img/works/inmoapp.png" class="img-responsive center-block" alt="img" >
 							</a>
 						</div>
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, urgencias-works-subtitle%>" /></p>
 							<a href="img/works/urgencias.png" title="Urgencias" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/urgencias.png">
-								<img src="img/works/urgencias.png" class="img-responsive center-img-works" alt="img">
+								<img src="img/works/urgencias.png" class="img-responsive center-block" alt="img">
 							</a>
 						</div>
 						<div class="col-md-4">
 							<h5><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-title%>" /></h5>
 							<p><asp:literal runat="server" text="<%$Resources:wapps, ottado-works-subtitle%>" /></p>
 							<a href="http://www.ottadoconstructora.com.ar/Home.aspx" title="Ottado Constructora" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/ottado.png">
-								<img src="img/works/ottado.png" class="img-responsive center-img-works" alt="img">
+								<img src="img/works/ottado.png" class="img-responsive center-block" alt="img">
 							</a>
 						</div>
 					</div>
@@ -239,7 +249,7 @@
 							<h5><asp:literal ID="Literal1" runat="server" text="<%$Resources:wapps, almaclip-works-title%>" /></h5>
 							<p><asp:literal ID="Literal2" runat="server" text="<%$Resources:wapps, almaclip-works-subtitle%>" /></p>
 							<a href="http://tv.almaclip.com.ar/singlesignin/login" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/almaclip.png">
-								<img src="img/works/almaclip.png" class="img-responsive center-img-works" alt="img">
+								<img src="img/works/almaclip.png" class="img-responsive center-block" alt="img">
 							</a>
 						</div>
 					</div>

@@ -126,4 +126,10 @@
   <data name="menu-us" xml:space="preserve">
     <value>Us</value>
   </data>
+  <data name="menu-services" xml:space="preserve">
+    <value>menu-services</value>
+  </data>
+  <data name="menu-contactus" xml:space="preserve">
+    <value>menu-contactus</value>
+  </data>
 </root>
