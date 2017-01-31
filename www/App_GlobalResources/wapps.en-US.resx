@@ -117,19 +117,110 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Us" xml:space="preserve">
-    <value>Us</value>
-  </data>
-  <data name="menu-works" xml:space="preserve">
-    <value>Works</value>
+  <data name="web-and-apps" xml:space="preserve">
+    <value>web &amp; apps</value>
   </data>
   <data name="menu-us" xml:space="preserve">
     <value>Us</value>
   </data>
   <data name="menu-services" xml:space="preserve">
-    <value>menu-services</value>
+    <value>Services</value>
+  </data>
+  <data name="menu-works" xml:space="preserve">
+    <value>Works</value>
   </data>
   <data name="menu-contactus" xml:space="preserve">
-    <value>menu-contactus</value>
+    <value>Contact Us</value>
+  </data>
+  <data name="menu-web-and-apps" xml:space="preserve">
+    <value>Web &amp; Apps</value>
+  </data>
+  <data name="hero-more-info" xml:space="preserve">
+    <value>More Info</value>
+  </data>
+  <data name="us-section-title" xml:space="preserve">
+    <value>Us</value>
+  </data>
+  <data name="us-section-subtitle" xml:space="preserve">
+    <value>We are young professionals who are passionate about technology. We are dedicated to providing web and mobile solutions. We have over 10 years of experience working for large companies in Argentina and USA.</value>
+  </data>
+  <data name="software-engineer" xml:space="preserve">
+    <value>Software Engineer</value>
+  </data>
+  <data name="fullstack-dev" xml:space="preserve">
+    <value>fullstack developer</value>
+  </data>
+  <data name="services-section-title" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="services-section-subtitle" xml:space="preserve">
+    <value>Nuestro objetivo es agregar valor y entregar software de calidad a nuestros clientes.
+								&lt;br&gt; Trabajamos aplicando metodologias agiles.</value>
+  </data>
+  <data name="websites-services-title" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="websites-services-subtitle" xml:space="preserve">
+    <value>Customized websites development, responsive sites compatible with phones, tablets</value>
+  </data>
+  <data name="apps-services-title" xml:space="preserve">
+    <value>Mobile Apps</value>
+  </data>
+  <data name="apps-services-subtitle" xml:space="preserve">
+    <value>Multiplattform apps (iPhone, Android, Windows Phone).</value>
+  </data>
+  <data name="consulting-services-title" xml:space="preserve">
+    <value>Consulting</value>
+  </data>
+  <data name="consulting-services-subtitle" xml:space="preserve">
+    <value>Consuting to gain productivity and reduce internal processes time.</value>
+  </data>
+  <data name="works-section-title" xml:space="preserve">
+    <value>Works</value>
+  </data>
+  <data name="works-section-subtitle" xml:space="preserve">
+    <value>These are the projects we've worked on.</value>
+  </data>
+  <data name="inmoapp-works-title" xml:space="preserve">
+    <value>InmoApp</value>
+  </data>
+  <data name="inmoapp-works-subtitle" xml:space="preserve">
+    <value>Real State Agent App</value>
+  </data>
+  <data name="urgencias-works-title" xml:space="preserve">
+    <value>Bar Code Scanner</value>
+  </data>
+  <data name="urgencias-works-subtitle" xml:space="preserve">
+    <value>Customized software to streamline inventory process</value>
+  </data>
+  <data name="ottado-works-title" xml:space="preserve">
+    <value>Ottado Constructora</value>
+  </data>
+  <data name="ottado-works-subtitle" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="contactus-section-title" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="contactus-section-subtitle" xml:space="preserve">
+    <value>Contact us by email or phone</value>
+  </data>
+  <data name="contactus-phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="contactus-mail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="hero-title" xml:space="preserve">
+    <value>Web &amp; Apps</value>
+  </data>
+  <data name="hero-subtitle" xml:space="preserve">
+    <value>web sites and mobile apps development</value>
+  </data>
+  <data name="almaclip-works-title" xml:space="preserve">
+    <value>Almaclip</value>
+  </data>
+  <data name="almaclip-works-subtitle" xml:space="preserve">
+    <value>Website / TV &amp; Radio monioring system / Newspaper clipping system</value>
   </data>
 </root>
