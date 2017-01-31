@@ -58,9 +58,9 @@
             </a></li>
             <li class="hidden-xs">
                 <ul class="company-localize">
-                    <li><a href="/www/index.aspx?language=es"><i>ESP</i>
+                    <li><a href="/index.aspx?language=es"><i>ESP</i>
                     </a></li>
-                    <li><a href="/www/index.aspx?language=en-us"><i>ENG</i>
+                    <li><a href="/index.aspx?language=en-us"><i>ENG</i>
                     </a></li>
                 </ul>
             </li>
