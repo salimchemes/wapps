@@ -15,11 +15,11 @@
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
 
         if (Request.QueryString["language"] == "es")
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("es");
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("es-AR");
         if (String.IsNullOrEmpty(Request.QueryString["language"]))
         {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("es");
-            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("es");
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("es-AR");
+            Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("es-AR");
         }
 
     }

@@ -224,4 +224,7 @@
   <data name="almaclip-works-subtitle" xml:space="preserve">
     <value>Sitio Web / Sistema monitoreo de TV y Radio / Sistema de clipping de medios</value>
   </data>
+  <data name="og-description" xml:space="preserve">
+    <value>proveemos soluciones, agregamos valor a su negocio, desarrollamos sitios web y aplicaciones móviles de calidad</value>
+  </data>
 </root>

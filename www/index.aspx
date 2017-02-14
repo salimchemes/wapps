@@ -19,6 +19,13 @@
     <!-- Squad theme CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="color/default.css" rel="stylesheet">
+    
+    <meta property="og:title" content="wapps" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="<asp:Literal runat="server" Text="<%$Resources:wapps, og-description%>" />" />
+    <meta property="og:image" content="http://www.wapps.com.ar/img/og-image.png" />
+    <meta property="og:url" content="http://www.wapps.com.ar/" />
+
     <!-- =======================================================
         Theme Name: Ninestars
         Theme URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/

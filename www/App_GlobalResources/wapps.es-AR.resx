@@ -136,14 +136,14 @@
     <value>Web &amp; Apps</value>
   </data>
   <data name="hero-more-info" xml:space="preserve">
-    <value>Mas Info</value>
+    <value>Más Info</value>
   </data>
   <data name="us-section-title" xml:space="preserve">
     <value>Nosotros</value>
   </data>
   <data name="us-section-subtitle" xml:space="preserve">
-    <value>Somos jovenes profesionales apasionados por la tecnologia. Nos dedicamos a brindar soluciones web y moviles. Tenemos mas
-								de 10 anos de experiencia trabajando para grandes companias de Argentina y EEUU.</value>
+    <value>Somos jóvenes profesionales apasionados por la tecnología. Nos dedicamos a brindar soluciones web y moviles. Tenemos más
+								de 10 años de experiencia trabajando para grandes compañías de Argentina y EEUU.</value>
   </data>
   <data name="software-engineer" xml:space="preserve">
     <value>Ing. Sistemas</value>
@@ -156,25 +156,25 @@
   </data>
   <data name="services-section-subtitle" xml:space="preserve">
     <value>Nuestro objetivo es agregar valor y entregar software de calidad a nuestros clientes.
-								&lt;br&gt; Trabajamos aplicando metodologias agiles.</value>
+&lt;br&gt; Trabajamos aplicando metodologías ágiles.</value>
   </data>
   <data name="websites-services-title" xml:space="preserve">
     <value>Sitios web</value>
   </data>
   <data name="websites-services-subtitle" xml:space="preserve">
-    <value>Desarrollo de sitios a medida, sitios responsive compatibles con telefonos, tablets</value>
+    <value>Desarrollo de sitios a medida, sitios responsive compatibles con teléfonos, tablets</value>
   </data>
   <data name="apps-services-title" xml:space="preserve">
-    <value>Aplicaciones moviles</value>
+    <value>Aplicaciones móviles</value>
   </data>
   <data name="apps-services-subtitle" xml:space="preserve">
     <value>Aplicaciones multiplataforma (iPhone, Android, Windows Phone).</value>
   </data>
   <data name="consulting-services-title" xml:space="preserve">
-    <value>Consultoria</value>
+    <value>Consultoría</value>
   </data>
   <data name="consulting-services-subtitle" xml:space="preserve">
-    <value>Asesoria para mejorar la productividad y agilizar procesos.</value>
+    <value>Asesoría para mejorar la productividad y agilizar procesos.</value>
   </data>
   <data name="works-section-title" xml:space="preserve">
     <value>Trabajos</value>
@@ -186,10 +186,10 @@
     <value>InmoApp</value>
   </data>
   <data name="inmoapp-works-subtitle" xml:space="preserve">
-    <value>Aplicacion para el corredor inmobiliario</value>
+    <value>Aplicación para el corredor inmobiliario</value>
   </data>
   <data name="urgencias-works-title" xml:space="preserve">
-    <value>Lectora Codigo Barra</value>
+    <value>Lectora Código Barra</value>
   </data>
   <data name="urgencias-works-subtitle" xml:space="preserve">
     <value>Software a medida para agilizar proceso de inventario</value>
@@ -204,10 +204,10 @@
     <value>Contacto</value>
   </data>
   <data name="contactus-section-subtitle" xml:space="preserve">
-    <value>Contactanos via mail o por telefono.</value>
+    <value>Contactanos vía mail o por teléfono.</value>
   </data>
   <data name="contactus-phone" xml:space="preserve">
-    <value>Telefono</value>
+    <value>Teléfono</value>
   </data>
   <data name="contactus-mail" xml:space="preserve">
     <value>Email</value>
@@ -216,12 +216,15 @@
     <value>Web &amp; Apps</value>
   </data>
   <data name="hero-subtitle" xml:space="preserve">
-    <value>desarrollo de sitios web y aplicaciones moviles</value>
+    <value>desarrollo de sitios web y aplicaciones móviles</value>
   </data>
   <data name="almaclip-works-title" xml:space="preserve">
     <value>Almaclip</value>
   </data>
   <data name="almaclip-works-subtitle" xml:space="preserve">
     <value>Sitio Web / Sistema monitoreo de TV y Radio / Sistema de clipping de medios</value>
+  </data>
+  <data name="og-description" xml:space="preserve">
+    <value>proveemos soluciones, agregamos valor a su negocio, desarrollamos sitios web y aplicaciones móviles de calidad</value>
   </data>
 </root>
