@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="web-and-apps" xml:space="preserve">
-    <value>web &amp; apps</value>
+    <value>webs &amp; apps</value>
   </data>
   <data name="menu-us" xml:space="preserve">
     <value>Us</value>
@@ -133,7 +133,7 @@
     <value>Contact Us</value>
   </data>
   <data name="menu-web-and-apps" xml:space="preserve">
-    <value>Web &amp; Apps</value>
+    <value>Webs &amp; Apps</value>
   </data>
   <data name="hero-more-info" xml:space="preserve">
     <value>More Info</value>
@@ -225,5 +225,17 @@
   </data>
   <data name="og-description" xml:space="preserve">
     <value>we provide solutions, add value to your business, websites and mobile apps development</value>
+  </data>
+  <data name="greendragon-works-subtitle" xml:space="preserve">
+    <value>App to find breweries in Rosario</value>
+  </data>
+  <data name="greendragon-works-title" xml:space="preserve">
+    <value>The Green Dragon</value>
+  </data>
+  <data name="urgenciascco-works-subtitle" xml:space="preserve">
+    <value>Web application to evaluate call center operators</value>
+  </data>
+  <data name="urgenciascco-works-title" xml:space="preserve">
+    <value>URG - SICARO</value>
   </data>
 </root>

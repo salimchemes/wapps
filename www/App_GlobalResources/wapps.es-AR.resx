@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="web-and-apps" xml:space="preserve">
-    <value>web &amp; apps</value>
+    <value>webs &amp; apps</value>
   </data>
   <data name="menu-us" xml:space="preserve">
     <value>Nosotros</value>
@@ -133,7 +133,7 @@
     <value>Contacto</value>
   </data>
   <data name="menu-web-and-apps" xml:space="preserve">
-    <value>Web &amp; Apps</value>
+    <value>Webs &amp; Apps</value>
   </data>
   <data name="hero-more-info" xml:space="preserve">
     <value>Más Info</value>
@@ -213,7 +213,7 @@
     <value>Email</value>
   </data>
   <data name="hero-title" xml:space="preserve">
-    <value>Web &amp; Apps</value>
+    <value>Webs &amp; Apps</value>
   </data>
   <data name="hero-subtitle" xml:space="preserve">
     <value>desarrollo de sitios web y aplicaciones móviles</value>
@@ -226,5 +226,17 @@
   </data>
   <data name="og-description" xml:space="preserve">
     <value>proveemos soluciones, agregamos valor a su negocio, desarrollamos sitios web y aplicaciones móviles de calidad</value>
+  </data>
+  <data name="greendragon-works-subtitle" xml:space="preserve">
+    <value>Aplicación para la búsqueda de cervecerías en Rosario</value>
+  </data>
+  <data name="greendragon-works-title" xml:space="preserve">
+    <value>The Green Dragon</value>
+  </data>
+  <data name="urgenciascco-works-subtitle" xml:space="preserve">
+    <value>Aplicación web para evaluar la atencion de los operadores del call center</value>
+  </data>
+  <data name="urgenciascco-works-title" xml:space="preserve">
+    <value>URG - SICARO</value>
   </data>
 </root>

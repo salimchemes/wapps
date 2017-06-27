@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>wapps - web and apps</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>wapps - webs & apps</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Fonts -->
@@ -86,7 +86,7 @@
     <!-- Section: intro -->
     <section id="intro" class="intro">
 		<div class="slogan">
-			<h1><asp:literal runat="server" text="<%$Resources:wapps, hero-title%>" /></h1>
+			<img src="img/wapps-logo.png" class="img-responsive center-block" alt="img" />
 			<p><asp:literal runat="server" text="<%$Resources:wapps, hero-subtitle%>" /></p>
 			<a href="#about" class="btn btn-skin scroll"><asp:literal runat="server" text="<%$Resources:wapps, hero-more-info%>" /></a>
 		</div>
@@ -257,6 +257,20 @@
 							<p><asp:literal ID="Literal2" runat="server" text="<%$Resources:wapps, almaclip-works-subtitle%>" /></p>
 							<a href="http://tv.almaclip.com.ar/singlesignin/login" title="InmoApp" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/almaclip.png">
 								<img src="img/works/almaclip.png" class="img-responsive center-block" alt="img">
+							</a>
+						</div>
+                        <div class="col-md-4">
+							<h5><asp:literal ID="Literal3" runat="server" text="<%$Resources:wapps, greendragon-works-title%>" /></h5>
+							<p><asp:literal ID="Literal4" runat="server" text="<%$Resources:wapps, greendragon-works-subtitle%>" /></p>
+							<a href="img/works/greendragon.png" title="The Green Dragon" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/greendragon.png">
+								<img src="img/works/greendragon.png" class="img-responsive center-block" alt="img" style="max-width: 180px;" >
+							</a>
+						</div>
+                        <div class="col-md-4">
+							<h5><asp:literal ID="Literal5" runat="server" text="<%$Resources:wapps, urgenciascco-works-title%>" /></h5>
+							<p><asp:literal ID="Literal6" runat="server" text="<%$Resources:wapps, urgenciascco-works-subtitle%>" /></p>
+							<a href="img/works/urgencias.png" title="Urgencias" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/urgencias.png">
+								<img src="img/works/urgencias.png" class="img-responsive center-block" alt="img">
 							</a>
 						</div>
 					</div>

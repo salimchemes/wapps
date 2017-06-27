@@ -462,13 +462,12 @@ input.gn-search:focus {
 
 #intro{	
 	background-image: url(../img/img-bg.jpg);
-	background-size: cover;
+    background-size: cover;
 }
 
 .intro .slogan {
-	padding:250px 0 60px;
-	text-align: center;
-	
+	padding:100px 0 60px;
+	text-align: center;	
 }
 .intro .slogan h1 {
 	color: #fff;
@@ -480,8 +479,8 @@ input.gn-search:focus {
 	color: #eee;
 	margin-bottom: 50px;
 	font-size: 20px;
+	top: -50px;
 }
-
 
 .brand-heading {
     font-size: 40px;
@@ -897,7 +896,6 @@ footer a:hover {
 	height: 500px;
 }
 
-
 .btn-skin:hover,
 .btn-skin:focus,
 .btn-skin:active,
@@ -942,8 +940,23 @@ footer a:hover {
     .intro-text {
         font-size: 25px;
     }
+ .intro .slogan p {
+    position: relative;
+    text-shadow: 1px 1px #999999;
+}
 
+.intro .slogan a.btn {
+	top: -50px;
+    position: relative;
+}
 
+}
+
+@media(min-width:1700px) {
+    .intro .slogan {
+	    padding:200px 0 60px;
+	    text-align: center;	
+    }
 }
 @media (max-width:768px) {
 	
